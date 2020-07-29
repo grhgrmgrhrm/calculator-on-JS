@@ -1,0 +1,90 @@
+.btn {
+    width: 59px;
+    height: 46px;
+    background: #f3f3f3;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    user-select: none;
+    font-size: larger;
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+
+.btn:hover {
+    background: #f70;
+    color: #fff;
+}
+
+.operation {
+    width: 58px;
+    height: 46px;
+    background: #f08c42;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    user-select: none;
+    font-size: larger;
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+
+.operation:hover {
+    background: #f70;
+    color: #fff;
+}
+
+#wrap {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+}
+
+#calc {
+    width: 238px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+#result {
+    width: 238px;
+    border: 0;
+    font-size: 32px;
+    resize: vertical;
+    text-align: right;
+    color: #fff;
+    background-color: #292c2f;
+    padding: 0;
+    margin: 0 0 -2px 0;
+    border-radius: 6px 6px 0 0;
+}
+
+#numpad {
+    display: grid;
+    grid-template-columns: 180px 58px;
+    margin: -2px 0 0 0;
+}
+
+#buttonCalc {
+    width: 238px;
+    height: 46px;
+    background: #f08c42;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    user-select: none;
+    font-size: larger;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-radius: 0 0 6px 6px;
+}
+
+#buttonCalc:hover {
+    background: #f70;
+    color: #fff;
+}
